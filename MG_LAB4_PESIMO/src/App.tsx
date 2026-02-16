@@ -1,7 +1,8 @@
 import './App.css'
 
 function App() {
-  type EventProps = { 
+
+ /* type EventProps = { 
     eventName: string; 
     venue: string; 
     date: string; 
@@ -12,7 +13,7 @@ function App() {
       
   type StudentListProps = { 
     students: string[]; 
-   };
+   };*/
    
    
   return (
