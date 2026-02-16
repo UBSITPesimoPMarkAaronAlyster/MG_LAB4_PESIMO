@@ -1,35 +1,62 @@
 body {
     margin: 0;
+    background-color: #f4f7f6;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    padding: 40px 20px;
     display: flex;
-    justify-content: center; 
-    align-items: center;     
-    min-height: 100vh;
-    background-color: #636866;
-    font-family: 'Segoe UI', Tahoma,
-   Verdana, sans-serif;
+    flex-direction: column;
+    align-items: center;
   }
   
-  h1, h2 {
-    color: rgb(255, 255, 255);
-    text-align: center;
-    width: 100%;
+  h1 {
+    color: #a85858;
+    margin-bottom: 30px;
+    font-size: 2rem;
   }
   
   section {
+    display: grid;
+    align-items: center;
+    background: white;
+    width: 100%;
+    max-width: 1100px;
+    padding: 15px 25px;
+    border-radius: 8px 8px 0 0;
+    border-bottom: 2px solid #a85858;
+    border-top: 2px solid #a85858;
+  }
+  
+  section:hover {
+    background-color: #fffafa;
+  }
+  
+  h2 {
+    font-size: 1rem;
+    color: #333;
+    margin: 0;
+    text-align: left;
+  }
+  
+  p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
+    gap: 8px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
   }
-
-  .Event {
-    background: rgb(168, 88, 88);
-    padding: 1.5rem;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    width: 280px;
-    text-align: left;
+  
+  li {
+    font-size: 0.75rem;
+    background: #eee;
+    padding: 2px 8px;
+    border-radius: 4px;
+    color: #555;
+    white-space: nowrap;
   }

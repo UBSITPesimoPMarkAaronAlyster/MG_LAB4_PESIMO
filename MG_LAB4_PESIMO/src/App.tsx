@@ -16,7 +16,7 @@ function App() {
       venue: "Gymnasium",
       date: "Feb 28, 2026",
       organizer: "SIT DEPARTMENT",
-      capacity: 200,
+      capacity: 100,
       registeredStudents: ["Alyster Pesimo", "Mary Grace Solis", "John Kaisen"],
     },
     {
